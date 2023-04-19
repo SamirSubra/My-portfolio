@@ -182,7 +182,7 @@
         <p>© Copyright 2023. Made by Samir Subra</p>
         <div class="social">
             <a href="https://www.linkedin.com/in/samir-subra-859331258/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-            <a href="https://gitlab.com/samir.subra26"><i class="fa-brands fa-gitlab fa-2x"></i></a>
+            <a href="https://github.com/SamirSubra"><i class="fa-brands fa-github fa-2x"></i></a>
         </div>
     </div>
 </footer>
