@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+    <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +21,6 @@
 <header>
     <div class="contenu">
         <div class="photo_nom">
-            <img src="img/photo.png" alt="photo de samir">
             <p>Samir Subra</p>
         </div>
 
@@ -63,7 +62,7 @@
                 </p>
                 <h2>Quelle est ta situation actuelle ?</h2>
                 <p>
-                    Je suis actuellement à la recherche d'un stage, de 8 à 10 semaines, à partir du 17 avril, en tant
+                    Je suis actuellement à la recherche d'un stage, de 8 à 10 semaines, en tant
                     que développeur, afin de mettre mes
                     compétences en pratique
                     et de continuer à apprendre. Mon objectif est de travailler dans une entreprise innovante et
