@@ -21,7 +21,7 @@ window.addEventListener('scroll', () => { // S'active à chaque scroll
 
 
 //Sphère de compétences
-const myTags = ['JavaScript', 'CSS','PHP', 'FIGMA', 'WordPress', 'HTML','C', 'Python', 'Java', 'git','IntelliJ', 'MySQL', 'jQuery',];
+const myTags = ['PHP', 'FIGMA', 'WordPress', 'C', 'Python', 'Java', 'GIT','IntelliJ', 'MySQL', 'REACT'];
 var tagCloud = TagCloud('.content', myTags,{
 
     // radius in px
@@ -41,9 +41,10 @@ var tagCloud = TagCloud('.content', myTags,{
     keep: true
 
 });
-var colors = ['#34A853', '#FBBC05', '#4285F4', '#7FBC00', 'FFBA01', '01A6F0'];
-var random_color = colors[Math.floor(Math.random() * colors.length)];
-document.querySelector('.content').style.color = random_color;
+// var colors = ['#34A853', '#FBBC05', '#4285F4', '#7FBC00', 'FFBA01', '01A6F0'];
+// var random_color = colors[Math.floor(Math.random() * colors.length)];
+// document.querySelector('.content').style.color = random_color;
+document.querySelector('.content').style.color = "#5B9A8B";
 
 //Text apparition
 const observer = new IntersectionObserver((entries) => {
