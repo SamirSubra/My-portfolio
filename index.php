@@ -99,11 +99,8 @@
                         <li>PHP</li>
                     </span>
                 </div>
-                <div class="right">
-                    <a href="youliblack.fr"><img src="img/youliblack.png" alt="image du projet de site e-commerce de vente et location de vehicule"></a>
-                    <!--                    <video class="hover-video" loop muted playsinline>-->
-                    <!--                        <source src="img/video_youliblack.mp4" type="video/mp4">-->
-                    <!--                    </video>-->
+                <div class="right hover">
+                    <a href="youliblack.fr"><img src="img/youliblack.png" class="static-image" alt="image du projet de site e-commerce de vente et location de vehicule"></a>
                 </div>
             </div>
             <div class="projet revert">
