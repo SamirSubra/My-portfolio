@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+    <script src=’https://unpkg.com/scrollreveal></script>
 </head>
 <body>
 <header>
@@ -38,15 +39,15 @@
     </div>
 </header>
 <main>
-    <section id="accueil" class="hidden">
-        <h1>Hello !</h1>
+    <section id="accueil">
+        <h1 class="hello-text">Hello !</h1>
         <p>Etudiant en troisième année de BUT Informatique, à l'IUT de Vélizy, Université de Versailles-St-Quentin, je
             suis spécialisé dans
             le développement web (front-end), mais je me débrouille
             pas mal dans d’autres domaines :)
         </p>
     </section>
-    <section id="moi" class="hidden">
+    <section id="moi" >
         <div class="titre">
             <h1>A propos de moi </h1>
             <p>Parlons un peu plus de moi ! </p>
@@ -54,16 +55,16 @@
         </div>
         <div class="division_moi">
             <div class="gauche">
-                <h2>Qui es tu ?</h2>
-                <p>Après avoir obtenu son bac scientifique, Samir Subra s’est dirigé vers un BUT informatique. Il a
+                <h2 class="reveal">Qui es tu ?</h2>
+                <p class="reveal">Après avoir obtenu son bac scientifique, Samir Subra s’est dirigé vers un BUT informatique. Il a
                     manipulé... je pense que je devrais plutôt parler de moi
                     même à la première personne :). J’ai pu étudier divers langages informatiques lors de mon cursus,
                     et me perfectionner via divers projets de groupe.
                     Projets qui m’ont d’ailleurs poussé à travailler en groupe, et à être plus à l’aise dans le travail
                     d’équipe. Je suis un passionné d'informatique qui cherche à devenir meilleur chaque jour.
                 </p>
-                <h2>Quelle est ta situation actuelle ?</h2>
-                <p>
+                <h2 class="reveal"> Quelle est ta situation actuelle ?</h2>
+                <p class="reveal">
                     Je suis actuellement à la recherche d'une alternance, pour l’année 2023-2024, en tant
                     que développeur web, afin de mettre mes
                     compétences en pratique
@@ -74,13 +75,13 @@
 
             </div>
             <div class="droite">
-                <h2>Mes compétences</h2>
-                <span class="content"></span>
+                <h2 class="reveal">Mes compétences</h2>
+                <span class="content reveal"></span>
             </div>
         </div>
     </section>
 
-    <section id="mes_projets" class="hidden">
+    <section id="mes_projets">
         <div class="titre">
             <h1>Mes projets</h1>
             <p>Voici mon taff! </p>
@@ -90,7 +91,7 @@
 
 
         <div class="liste_projets">
-            <div class="projet">
+            <div class="projet reveal">
                 <div class="left">
                     <p class="titre-projet"> Youli BLack </p>
                     <p class="description">
@@ -103,7 +104,7 @@
                     <a href="youliblack.fr"><img src="img/youliblack.png" class="static-image" alt="image du projet de site e-commerce de vente et location de vehicule"></a>
                 </div>
             </div>
-            <div class="projet revert">
+            <div class="projet revert reveal">
                 <div class="left ">
                     <p class="titre-projet"> Calculateur de Probabilité mathématique &
                         Cryptographie RC4 </p>
@@ -119,7 +120,7 @@
                     <a href="https://gitlab.com/sae_dev_appli/sae_dev_appli"><img src="img/simfast.png" alt="image du projet calculateur de probabilité et cryptographie rc4"></a>
                 </div>
             </div>
-            <div class="projet">
+            <div class="projet reveal">
                 <div class="left">
                     <p class="titre-projet"> Snake </p>
                     <p class="description">
@@ -133,10 +134,9 @@
                     <a href="https://github.com/SamirSubra"><img src="img/snake.png" alt="image du projet morpion"></a>
                 </div>
             </div>
-
     </section>
 
-    <section id="contact" class="hidden">
+    <section id="contact">
         <div class="titre">
             <h1>Me contacter</h1>
             <p>Faissons connaissance ! </p>
