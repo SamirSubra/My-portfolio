@@ -41,7 +41,7 @@
 <main>
     <section id="accueil">
         <h1 class="hello-text">Hello !</h1>
-        <p>Etudiant en troisième année de BUT Informatique, à l'IUT de Vélizy, Université de Versailles-St-Quentin, je
+        <p>Étudiant en troisième année de BUT Informatique, à l'IUT de Vélizy, Université de Versailles-St-Quentin, je
             suis spécialisé dans
             le développement web (front-end), mais je me débrouille
             pas mal dans d’autres domaines :)
@@ -49,16 +49,14 @@
     </section>
     <section id="moi" >
         <div class="titre">
-            <h1>A propos de moi </h1>
+            <h1>À propos de moi </h1>
             <p>Parlons un peu plus de moi ! </p>
             <div class="trait"></div>
         </div>
         <div class="division_moi">
             <div class="gauche">
-                <h2 class="reveal">Qui es tu ?</h2>
-                <p class="reveal">Après avoir obtenu son bac scientifique, Samir Subra s’est dirigé vers un BUT informatique. Il a
-                    manipulé... je pense que je devrais plutôt parler de moi
-                    même à la première personne :). J’ai pu étudier divers langages informatiques lors de mon cursus,
+                <h2 class="reveal">Qui es-tu ?</h2>
+                <p class="reveal">Après avoir obtenu son bac scientifique, Samir SUBRA s’est dirigé vers un BUT informatique. Il a manipulé... je pense que je devrais plutôt parler de moi-même à la première personne :). J’ai pu étudier divers langages informatiques lors de mon cursus,
                     et me perfectionner via divers projets de groupe.
                     Projets qui m’ont d’ailleurs poussé à travailler en groupe, et à être plus à l’aise dans le travail
                     d’équipe. Je suis un passionné d'informatique qui cherche à devenir meilleur chaque jour.
@@ -95,7 +93,7 @@
                 <div class="left">
                     <p class="titre-projet"> Youli BLack </p>
                     <p class="description">
-                        Youli Black est l'entreprise d'une coiffeuse talentueuse, qui a eu besoin de mes connaisances, pour concevoir son site internet. Ce site web lui permet d'y présenter tous ses services et tarifs.</p>
+                        Youli Black représente l'entreprise, dirigée par une coiffeuse exceptionnellement talentueuse, ayant sollicité mes compétences en vue de la conception de son site internet. Ce site web lui offre la possibilité de présenter l'intégralité de ses services, ainsi que sa grille tarifaire, de manière élégante et efficace.</p>
                     <span class="technologies">
                         <li>PHP</li>
                     </span>
@@ -106,12 +104,11 @@
             </div>
             <div class="projet revert reveal">
                 <div class="left ">
-                    <p class="titre-projet"> Calculateur de Probabilité mathématique &
-                        Cryptographie RC4 </p>
+                    <p class="titre-projet"> Calculateur de Probabilité mathématique & Cryptographie RC4 </p>
                     <p class="description">
-                        Projet scolaire, consistant à concevoir une application web compsé d'un module permettant de calculer la probabilité d'une
+                        Projet scolaire, consistant à concevoir une application web composé d'un module permettant de calculer la probabilité d'une
                         loi normale,
-                        et d'un module permettant de crypter/décrypter une phrase grâce un algorithme RC4.</p>
+                        et d'un module permettant de crypter/décrypter une phrase grâce à un algorithme RC4.</p>
                     <span class="technologies">
                         <li>PHP</li><li>Python</li><li>SQL</li>
                     </span>
@@ -124,7 +121,7 @@
                 <div class="left">
                     <p class="titre-projet"> Snake </p>
                     <p class="description">
-                        Jeu snake, qu'on ne présente plus. C'est un des projets que je me suis lancé pour m'améliorer avec le framework REACT.
+                        Le jeu SNAKE, dont la renommée n'est plus à faire, représente l'un des défis que j'ai entrepris afin de perfectionner mes compétences au moyen du framework REACT.
                     </p>
                     <span class="technologies">
                         <li>REACT</li>
