@@ -63,7 +63,7 @@
                 </p>
                 <h2 class="reveal"> Quelle est ta situation actuelle ?</h2>
                 <p class="reveal">
-                    Je suis actuellement à la recherche d'une alternance, pour l’année 2023-2024, en tant
+                    Je suis actuellement à la recherche d'un stage de 4 à 5 mois, à partir du 11 mars 2024, en tant
                     que développeur web, afin de mettre mes
                     compétences en pratique
                     et de continuer à apprendre. Mon objectif est de travailler dans une entreprise innovante et
@@ -99,7 +99,7 @@
                     </span>
                 </div>
                 <div class="right hover">
-                    <a href="youliblack.fr"><img src="img/youliblack.png" class="static-image" alt="image du projet de site e-commerce de vente et location de vehicule"></a>
+                    <a href="http://youliblack.fr"><img src="img/youliblack.png" class="static-image" alt="image du projet de site e-commerce de vente et location de vehicule"></a>
                 </div>
             </div>
             <div class="projet revert reveal">

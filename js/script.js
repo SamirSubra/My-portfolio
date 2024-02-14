@@ -21,7 +21,7 @@ window.addEventListener('scroll', () => { // S'active à chaque scroll
 
 
 //Sphère de compétences
-const myTags = ['PHP', 'FIGMA', 'WordPress', 'C', 'Python', 'Java', 'GIT','IntelliJ', 'MySQL', 'REACT'];
+const myTags = ['PHP', 'FIGMA', 'WordPress', 'Node.js','Express.js', 'Python', 'Java', 'GIT','IntelliJ', 'MySQL', 'REACT'];
 var tagCloud = TagCloud('.content', myTags,{
 
     // radius in px
