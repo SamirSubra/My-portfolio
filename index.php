@@ -42,7 +42,7 @@
     <section id="accueil">
         <h1 class="hello-text">Hello !</h1>
         <p>Fraîchement diplômé d'un BUT en Informatique, je suis spécialisé dans le développement web.
-           Je suis motivé
+            Je suis motivé
             pour contribuer à des projets innovants et ambitieux !</p>
     </section>
     <section id="moi" >
@@ -93,7 +93,7 @@
                     </span>
                 </div>
                 <div class="right hover">
-                    <a href="https://youliblack.fr"><img src="img/youliblack.png" class="static-image" alt="image du projet Youliblack"></a>
+                    <a href="https://youliblack.fr" target="_blank"><img src="img/youliblack.png" class="static-image" alt="image du projet Youliblack"></a>
                 </div>
             </div>
             <div class="projet revert reveal">
@@ -101,14 +101,14 @@
                     <p class="titre-projet"> Vahine Location </p>
                     <p class="description">
                         Vahine Location est l'entreprise, dirigée par un indépendant spécialisé dans tout ce que touche l'automobile (permis, carte grise,
-                    location / vente de véhicules etc...). Ce site lui permet de mettre en avant ces services, mais aussi d'attirer les prospects
-                    dans ses locaux.</p>
+                        location / vente de véhicules etc...). Ce site lui permet de mettre en avant ces services, mais aussi d'attirer les prospects
+                        dans ses locaux.</p>
                     <span class="technologies">
                         <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
                 </div>
                 <div class="right hover">
-                    <a href="https://gitlab.com/sae_dev_appli/sae_dev_appli"><img src="img/vahine.png" alt="image du projet Vahine Location"></a>
+                    <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img src="img/vahine.png" alt="image du projet Vahine Location"></a>
                 </div>
             </div>
             <div class="projet reveal">
@@ -122,7 +122,7 @@
                     </span>
                 </div>
                 <div class="right hover">
-                    <a href="https://github.com/SamirSubra"><img src="img/arbuspace.png" alt="Image du projet Arbuspace"></a>
+                    <a href="https://preprod-arbuspace.arbuspace.com/" target="_blank"><img src="img/arbuspace.png" alt="Image du projet Arbuspace"></a>
                 </div>
             </div>
     </section>
