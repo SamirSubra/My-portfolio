@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
@@ -41,11 +41,9 @@
 <main>
     <section id="accueil">
         <h1 class="hello-text">Hello !</h1>
-        <p>Étudiant en troisième année de BUT Informatique, à l'IUT de Vélizy, Université de Versailles-St-Quentin, je
-            suis spécialisé dans
-            le développement web (front-end), mais je me débrouille
-            pas mal dans d’autres domaines :)
-        </p>
+        <p>Fraîchement diplômé d'un BUT en Informatique, je suis spécialisé dans le développement web.
+           Je suis motivé
+            pour contribuer à des projets innovants et ambitieux !</p>
     </section>
     <section id="moi" >
         <div class="titre">
@@ -58,19 +56,18 @@
                 <h2 class="reveal">Qui es-tu ?</h2>
                 <p class="reveal">Après avoir obtenu son bac scientifique, Samir SUBRA s’est dirigé vers un BUT informatique. Il a manipulé... je pense que je devrais plutôt parler de moi-même à la première personne :). J’ai pu étudier divers langages informatiques lors de mon cursus,
                     et me perfectionner via divers projets de groupe.
-                    Projets qui m’ont d’ailleurs poussé à travailler en groupe, et à être plus à l’aise dans le travail
-                    d’équipe. Je suis un passionné d'informatique qui cherche à devenir meilleur chaque jour.
+                    J'ai eu l'opportunité d'effectuer plusieurs stages très enrichissants en tant que développeur full-stack, où j'ai pu mettre en pratique mes connaissances et acquérir une expérience précieuse dans le développement web.
+                    Je suis un passionné d'informatique qui cherche à devenir meilleur chaque jour.
                 </p>
                 <h2 class="reveal"> Quelle est ta situation actuelle ?</h2>
                 <p class="reveal">
-                    Je suis actuellement à la recherche d'un stage de 4 à 5 mois, à partir du 11 mars 2024, en tant
+                    Je suis actuellement à la recherche d'un job, en tant
                     que développeur web, afin de mettre mes
                     compétences en pratique
                     et de continuer à apprendre. Mon objectif est de travailler dans une entreprise innovante et
                     dynamique où je pourrais
                     contribuer au développement de projets intéressants et utiles.
                 </p>
-
             </div>
             <div class="droite">
                 <h2 class="reveal">Mes compétences</h2>
@@ -78,16 +75,13 @@
             </div>
         </div>
     </section>
-
     <section id="mes_projets">
         <div class="titre">
             <h1>Mes projets</h1>
-            <p>Voici mon taff! </p>
+            <p>Voici une partie de mon taff! </p>
             <p>(personnels et universitaires)</p>
             <div class="trait"></div>
         </div>
-
-
         <div class="liste_projets">
             <div class="projet reveal">
                 <div class="left">
@@ -95,40 +89,40 @@
                     <p class="description">
                         Youli Black représente l'entreprise, dirigée par une coiffeuse exceptionnellement talentueuse, ayant sollicité mes compétences en vue de la conception de son site internet. Ce site web lui offre la possibilité de présenter l'intégralité de ses services, ainsi que sa grille tarifaire, de manière élégante et efficace.</p>
                     <span class="technologies">
-                        <li>PHP</li>
+                        <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
                 </div>
                 <div class="right hover">
-                    <a href="http://youliblack.fr"><img src="img/youliblack.png" class="static-image" alt="image du projet de site e-commerce de vente et location de vehicule"></a>
+                    <a href="https://youliblack.fr"><img src="img/youliblack.png" class="static-image" alt="image du projet Youliblack"></a>
                 </div>
             </div>
             <div class="projet revert reveal">
                 <div class="left ">
-                    <p class="titre-projet"> Calculateur de Probabilité mathématique & Cryptographie RC4 </p>
+                    <p class="titre-projet"> Vahine Location </p>
                     <p class="description">
-                        Projet scolaire, consistant à concevoir une application web composé d'un module permettant de calculer la probabilité d'une
-                        loi normale,
-                        et d'un module permettant de crypter/décrypter une phrase grâce à un algorithme RC4.</p>
+                        Vahine Location est l'entreprise, dirigée par un indépendant spécialisé dans tout ce que touche l'automobile (permis, carte grise,
+                    location / vente de véhicules etc...). Ce site lui permet de mettre en avant ces services, mais aussi d'attirer les prospects
+                    dans ses locaux.</p>
                     <span class="technologies">
-                        <li>PHP</li><li>Python</li><li>SQL</li>
+                        <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
                 </div>
-                <div class="right">
-                    <a href="https://gitlab.com/sae_dev_appli/sae_dev_appli"><img src="img/simfast.png" alt="image du projet calculateur de probabilité et cryptographie rc4"></a>
+                <div class="right hover">
+                    <a href="https://gitlab.com/sae_dev_appli/sae_dev_appli"><img src="img/vahine.png" alt="image du projet Vahine Location"></a>
                 </div>
             </div>
             <div class="projet reveal">
                 <div class="left">
-                    <p class="titre-projet"> Snake </p>
+                    <p class="titre-projet"> Arbuspace </p>
                     <p class="description">
-                        Le jeu SNAKE, dont la renommée n'est plus à faire, représente l'un des défis que j'ai entrepris afin de perfectionner mes compétences au moyen du framework REACT.
+                        Arbuspace est un projet de freelance que j'hésitais à lancer. Le site m'aurais permis de proposer mes services. Ce projet est actuellement en pause.
                     </p>
                     <span class="technologies">
-                        <li>REACT</li>
+                        <li>PHP</li><li>SASS</li><li>Figma</li>
                     </span>
                 </div>
-                <div class="right">
-                    <a href="https://github.com/SamirSubra"><img src="img/snake.png" alt="image du projet morpion"></a>
+                <div class="right hover">
+                    <a href="https://github.com/SamirSubra"><img src="img/arbuspace.png" alt="Image du projet Arbuspace"></a>
                 </div>
             </div>
     </section>
