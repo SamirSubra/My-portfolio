@@ -42,7 +42,7 @@
     <section id="accueil">
         <h1 class="hello-text">Hello !</h1>
         <p>Fraîchement diplômé d'un BUT en Informatique, je suis spécialisé dans le développement web.
-            Je suis motivé
+           Je suis motivé
             pour contribuer à des projets innovants et ambitieux !</p>
     </section>
     <section id="moi" >
@@ -79,7 +79,7 @@
         <div class="titre">
             <h1>Mes projets</h1>
             <p>Voici une partie de mon taff! </p>
-            <p>(personnels et universitaires)</p>
+            <p class="description">Ces projets, entièrement développés de A à Z, intègrent le CMS WordPress, offrant ainsi à leurs propriétaires la possibilité de modifier facilement certains aspects du site (images, textes, etc.) sans nécessiter l'intervention d'un développeur.</p>
             <div class="trait"></div>
         </div>
         <div class="liste_projets">
@@ -87,7 +87,8 @@
                 <div class="left">
                     <p class="titre-projet"> Youli BLack </p>
                     <p class="description">
-                        Youli Black représente l'entreprise, dirigée par une coiffeuse exceptionnellement talentueuse, ayant sollicité mes compétences en vue de la conception de son site internet. Ce site web lui offre la possibilité de présenter l'intégralité de ses services, ainsi que sa grille tarifaire, de manière élégante et efficace.</p>
+                        Youli Black représente l'entreprise, dirigée par une coiffeuse exceptionnellement talentueuse, ayant sollicité mes compétences en vue de la conception de son site internet. Ce site web lui offre la possibilité de présenter l'intégralité de ses services, ainsi que sa grille tarifaire, de manière élégante et efficace.
+                    </p>
                     <span class="technologies">
                         <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
@@ -101,8 +102,8 @@
                     <p class="titre-projet"> Vahine Location </p>
                     <p class="description">
                         Vahine Location est l'entreprise, dirigée par un indépendant spécialisé dans tout ce que touche l'automobile (permis, carte grise,
-                        location / vente de véhicules etc...). Ce site lui permet de mettre en avant ces services, mais aussi d'attirer les prospects
-                        dans ses locaux.</p>
+                    location / vente de véhicules etc...). Ce site lui permet de mettre en avant ces services, mais aussi d'attirer les prospects
+                    dans ses locaux.</p>
                     <span class="technologies">
                         <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
@@ -111,20 +112,7 @@
                     <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img src="img/vahine.png" alt="image du projet Vahine Location"></a>
                 </div>
             </div>
-            <div class="projet reveal">
-                <div class="left">
-                    <p class="titre-projet"> Arbuspace </p>
-                    <p class="description">
-                        Arbuspace est un projet de freelance que j'hésitais à lancer. Le site m'aurais permis de proposer mes services. Ce projet est actuellement en pause.
-                    </p>
-                    <span class="technologies">
-                        <li>PHP</li><li>SASS</li><li>Figma</li>
-                    </span>
-                </div>
-                <div class="right hover">
-                    <a href="https://preprod-arbuspace.arbuspace.com/" target="_blank"><img src="img/arbuspace.png" alt="Image du projet Arbuspace"></a>
-                </div>
-            </div>
+            <p class="reveal">La majorité des projets que j'ai réalisés ont été développés lors de mon dernier stage. Je serai ravi de vous fournir plus de détails à ce sujet lors d'un entretien.</p>
     </section>
 
     <section id="contact">

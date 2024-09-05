@@ -206,6 +206,12 @@ header .contenu {
     background-color: #091628;
 }
 
+#mes_projets .titre > .description{
+    text-align: center;
+    max-width: 800px;
+    font-size: 16px;
+}
+
 .liste_projets {
     margin-top: 50px;
     display: flex;
