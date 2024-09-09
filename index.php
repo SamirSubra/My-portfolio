@@ -9,7 +9,7 @@
     <meta name="Samir Subra" content="Portfolio Samir Subra">
     <meta name="robots" content="index,follow">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/style.css">
     <title>Samir SUBRA - Developpeur web</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css"
           integrity="sha384-gWZI8pZgeI+GBa/W4iky4W9+XOrpgDpIp5t+7tdt+rWd2Qf+tjK40/2QEMfC5ch5" crossorigin="anonymous">
@@ -42,10 +42,10 @@
     <section id="accueil">
         <h1 class="hello-text">Hello !</h1>
         <p>Fraîchement diplômé d'un BUT en Informatique, je suis spécialisé dans le développement web.
-           Je suis motivé
+            Je suis motivé
             pour contribuer à des projets innovants et ambitieux !</p>
     </section>
-    <section id="moi" >
+    <section id="moi">
         <div class="titre">
             <h1>À propos de moi </h1>
             <p>Parlons un peu plus de moi ! </p>
@@ -54,9 +54,13 @@
         <div class="division_moi">
             <div class="gauche">
                 <h2 class="reveal">Qui es-tu ?</h2>
-                <p class="reveal">Après avoir obtenu son bac scientifique, Samir SUBRA s’est dirigé vers un BUT informatique. Il a manipulé... je pense que je devrais plutôt parler de moi-même à la première personne :). J’ai pu étudier divers langages informatiques lors de mon cursus,
+                <p class="reveal">Après avoir obtenu son bac scientifique, Samir SUBRA s’est dirigé vers un BUT
+                    informatique. Il a manipulé... je pense que je devrais plutôt parler de moi-même à la première
+                    personne :). J’ai pu étudier divers langages informatiques lors de mon cursus,
                     et me perfectionner via divers projets de groupe.
-                    J'ai eu l'opportunité d'effectuer plusieurs stages très enrichissants en tant que développeur full-stack, où j'ai pu mettre en pratique mes connaissances et acquérir une expérience précieuse dans le développement web.
+                    J'ai eu l'opportunité d'effectuer plusieurs stages très enrichissants en tant que développeur
+                    full-stack, où j'ai pu mettre en pratique mes connaissances et acquérir une expérience précieuse
+                    dans le développement web.
                     Je suis un passionné d'informatique qui cherche à devenir meilleur chaque jour.
                 </p>
                 <h2 class="reveal"> Quelle est ta situation actuelle ?</h2>
@@ -79,7 +83,9 @@
         <div class="titre">
             <h1>Mes projets</h1>
             <p>Voici une partie de mon taff! </p>
-            <p class="description">Ces projets, entièrement développés de A à Z, intègrent le CMS WordPress, offrant ainsi à leurs propriétaires la possibilité de modifier facilement certains aspects du site (images, textes, etc.) sans nécessiter l'intervention d'un développeur.</p>
+            <p class="description">Ces projets, entièrement développés de A à Z, intègrent le CMS WordPress, offrant
+                ainsi à leurs propriétaires la possibilité de modifier facilement certains aspects du site (images,
+                textes, etc.) sans nécessiter l'intervention d'un développeur.</p>
             <div class="trait"></div>
         </div>
         <div class="liste_projets">
@@ -87,32 +93,40 @@
                 <div class="left">
                     <p class="titre-projet"> Youli BLack </p>
                     <p class="description">
-                        Youli Black représente l'entreprise, dirigée par une coiffeuse exceptionnellement talentueuse, ayant sollicité mes compétences en vue de la conception de son site internet. Ce site web lui offre la possibilité de présenter l'intégralité de ses services, ainsi que sa grille tarifaire, de manière élégante et efficace.
+                        Youli Black représente l'entreprise, dirigée par une coiffeuse exceptionnellement talentueuse,
+                        ayant sollicité mes compétences en vue de la conception de son site internet. Ce site web lui
+                        offre la possibilité de présenter l'intégralité de ses services, ainsi que sa grille tarifaire,
+                        de manière élégante et efficace.
                     </p>
                     <span class="technologies">
                         <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
                 </div>
                 <div class="right hover">
-                    <a href="https://youliblack.fr" target="_blank"><img src="img/youliblack.png" class="static-image" alt="image du projet Youliblack"></a>
+                    <a href="https://youliblack.fr" target="_blank"><img src="img/youliblack.png" class="static-image"
+                                                                         alt="image du projet Youliblack"></a>
                 </div>
             </div>
             <div class="projet revert reveal">
                 <div class="left ">
                     <p class="titre-projet"> Vahine Location </p>
                     <p class="description">
-                        Vahine Location est l'entreprise, dirigée par un indépendant spécialisé dans tout ce que touche l'automobile (permis, carte grise,
-                    location / vente de véhicules etc...). Ce site lui permet de mettre en avant ces services, mais aussi d'attirer les prospects
-                    dans ses locaux.</p>
+                        Vahine Location est l'entreprise, dirigée par un indépendant spécialisé dans tout ce que touche
+                        l'automobile (permis, carte grise,
+                        location / vente de véhicules etc...). Ce site lui permet de mettre en avant ces services, mais
+                        aussi d'attirer les prospects
+                        dans ses locaux.</p>
                     <span class="technologies">
                         <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
                 </div>
                 <div class="right hover">
-                    <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img src="img/vahine.png" alt="image du projet Vahine Location"></a>
+                    <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img src="img/vahine.png"
+                                                                                         alt="image du projet Vahine Location"></a>
                 </div>
             </div>
-            <p class="reveal">La majorité des projets que j'ai réalisés ont été développés lors de mon dernier stage. Je serai ravi de vous fournir plus de détails à ce sujet lors d'un entretien.</p>
+            <p class="reveal">La majorité des projets que j'ai réalisés ont été développés lors de mon dernier stage. Je
+                serai ravi de vous fournir plus de détails à ce sujet lors d'un entretien.</p>
     </section>
 
     <section id="contact">
