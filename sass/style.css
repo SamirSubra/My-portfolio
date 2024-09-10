@@ -26,7 +26,6 @@ body p, body h2, body a {
 body section {
   padding-top: 5%;
   padding-bottom: 100px;
-  /*height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,22 +129,22 @@ header .contenu .navbar {
     background-color: #102646;
   }
 }
-header .contenu .navbar.active a:hover, header .contenu .navbar.active a.active {
+header .contenu .navbar a:hover, header .contenu .navbar a.active {
   color: #5B9A8B;
   transition: all 0.2s ease-in-out;
 }
-header .contenu .navbar .burger {
+header .contenu .burger {
   display: none;
 }
 @media screen and (max-width: 800px) {
-  header .contenu .navbar .burger {
+  header .contenu .burger {
     display: block;
     width: 42px;
     height: 24px;
     cursor: pointer;
     position: relative;
   }
-  header .contenu .navbar .burger span {
+  header .contenu .burger span {
     width: 100%;
     height: 4px;
     background-color: white;
@@ -155,7 +154,7 @@ header .contenu .navbar .burger {
     transform: translateY(-50%);
     transition: background-color 0.4s ease-in-out;
   }
-  header .contenu .navbar .burger span::before, header .contenu .navbar .burger span::after {
+  header .contenu .burger span::before, header .contenu .burger span::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -163,19 +162,19 @@ header .contenu .navbar .burger {
     background-color: white;
     transition: 0.4s ease-in-out;
   }
-  header .contenu .navbar .burger span::before {
+  header .contenu .burger span::before {
     transform: translateY(-10px);
   }
-  header .contenu .navbar .burger span::after {
+  header .contenu .burger span::after {
     transform: translateY(10px);
   }
-  header .contenu .navbar .burger.active span {
+  header .contenu .burger.active span {
     background-color: transparent;
   }
-  header .contenu .navbar .burger.active span::before {
+  header .contenu .burger.active span::before {
     transform: translateY(0px) rotateZ(45deg);
   }
-  header .contenu .navbar .burger.active span::after {
+  header .contenu .burger.active span::after {
     transform: translateY(0px) rotateZ(-45deg);
   }
 }
@@ -238,6 +237,11 @@ header .contenu .navbar .burger {
 @media screen and (max-width: 415px) {
   #moi {
     height: 1680px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #moi {
+    height: 1700px;
   }
 }
 #moi .division_moi {
@@ -340,6 +344,11 @@ header .contenu .navbar .burger {
     gap: 100px;
   }
 }
+@media screen and (max-width: 360px) {
+  .liste_projets {
+    gap: 100px;
+  }
+}
 .liste_projets .projet {
   background-color: #f6f5f5;
   width: 70vw;
@@ -369,6 +378,14 @@ header .contenu .navbar .burger {
     height: 230px;
     width: 280px;
     object-fit: cover;
+  }
+}
+@media screen and (max-width: 360px) {
+  .liste_projets .projet .site {
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+    z-index: 10;
   }
 }
 .liste_projets .projet.revert {
@@ -471,6 +488,13 @@ header .contenu .navbar .burger {
     box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
   }
 }
+@media screen and (max-width: 360px) {
+  #contact form {
+    width: 220px;
+    padding: 25px 25px;
+    box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+  }
+}
 #contact form .elements {
   display: flex;
   flex-direction: column;
@@ -489,6 +513,12 @@ header .contenu .navbar .burger {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 360px) {
+  #contact form .elements {
+    width: 190px;
+    font-size: 15px;
+  }
+}
 #contact form .elements label {
   position: relative;
   top: -15px;
@@ -501,6 +531,11 @@ header .contenu .navbar .burger {
   flex-direction: column;
 }
 @media screen and (max-width: 568px) {
+  #contact form .elements .input {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 360px) {
   #contact form .elements .input {
     width: 90%;
   }
@@ -532,6 +567,14 @@ header .contenu .navbar .burger {
     max-height: 200px;
   }
 }
+@media screen and (max-width: 360px) {
+  #contact form .elements textarea {
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 200px;
+    max-height: 200px;
+  }
+}
 #contact form .elements textarea:focus + label, #contact form .elements textarea:valid + label {
   left: 5px;
   color: #ccd6f6;
@@ -556,6 +599,11 @@ header .contenu .navbar .burger {
     top: 15px;
   }
 }
+@media screen and (max-width: 360px) {
+  #contact form .elements input[type=text] {
+    top: 15px;
+  }
+}
 #contact form .elements input[type=submit] {
   width: 50%;
   height: 40px;
@@ -569,6 +617,11 @@ header .contenu .navbar .burger {
   box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.25);
 }
 @media screen and (max-width: 568px) {
+  #contact form .elements input[type=submit] {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 360px) {
   #contact form .elements input[type=submit] {
     width: 40%;
   }
@@ -614,46 +667,6 @@ footer .social {
   display: flex;
   gap: 15px;
   color: white;
-}
-
-@media screen and (max-width: 360px) {
-  #moi {
-    height: 1700px;
-  }
-  .liste_projets {
-    gap: 100px;
-  }
-  .projet .site {
-    height: 300px;
-    width: 450px;
-    object-fit: cover;
-    z-index: 10;
-  }
-  #contact form {
-    width: 220px;
-    padding: 25px 25px;
-    box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
-  }
-  #contact form .elements {
-    width: 190px;
-    font-size: 15px;
-  }
-  #contact form .elements input[type=text] {
-    top: 15px;
-  }
-  #contact form .elements .input {
-    width: 90%;
-  }
-  #contact form .elements textarea {
-    min-width: 90%;
-    max-width: 90%;
-    min-height: 200px;
-    max-height: 200px;
-  }
-  /*bouton*/
-  #contact form .elements input[type=submit] {
-    width: 40%;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

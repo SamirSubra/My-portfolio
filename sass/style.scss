@@ -28,7 +28,6 @@ body {
   section {
     padding-top: 5%;
     padding-bottom: 100px;
-    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,61 +134,59 @@ header {
           align-items: center;
           background-color: #102646;
         }
-
-        a:hover, a.active {
-          color: #5B9A8B;
-          transition: all 0.2s ease-in-out;
-        }
       }
+      a:hover, a.active {
+        color: #5B9A8B;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+    .burger {
+      display: none;
+      @media screen and (max-width: 800px) {
+        display: block;
+        width: 42px;
+        height: 24px;
+        cursor: pointer;
+        position: relative;
 
-      .burger {
-        display: none;
-        @media screen and (max-width: 800px) {
+
+        span {
+          width: 100%;
+          height: 4px;
+          background-color: white;
           display: block;
-          width: 42px;
-          height: 24px;
-          cursor: pointer;
-          position: relative;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          transition: background-color 0.4s ease-in-out;
 
-
-          span {
+          &::before, &::after {
+            content: "";
+            position: absolute;
             width: 100%;
             height: 4px;
             background-color: white;
-            display: block;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            transition: background-color 0.4s ease-in-out;
-
-            &::before, &::after {
-              content: "";
-              position: absolute;
-              width: 100%;
-              height: 4px;
-              background-color: white;
-              transition: 0.4s ease-in-out;
-            }
-
-            &::before {
-              transform: translateY(-10px);
-            }
-
-            &::after {
-              transform: translateY(10px);
-            }
+            transition: 0.4s ease-in-out;
           }
 
-          &.active span {
-            background-color: transparent;
+          &::before {
+            transform: translateY(-10px);
+          }
 
-            &::before {
-              transform: translateY(0px) rotateZ(45deg);
-            }
+          &::after {
+            transform: translateY(10px);
+          }
+        }
 
-            &::after {
-              transform: translateY(0px) rotateZ(-45deg);
-            }
+        &.active span {
+          background-color: transparent;
+
+          &::before {
+            transform: translateY(0px) rotateZ(45deg);
+          }
+
+          &::after {
+            transform: translateY(0px) rotateZ(-45deg);
           }
         }
       }
@@ -246,8 +243,11 @@ header {
   @media screen and (max-width: 415px) {
     height: 1680px;
   }
+  @media screen and (max-width: 360px) {
+    height: 1700px;
+  }
 
-  .division_moi {
+    .division_moi {
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -340,6 +340,9 @@ header {
   @media screen and (max-width: 568px) {
     gap: 100px;
   }
+  @media screen and (max-width: 360px) {
+    gap: 100px;
+  }
 
   .projet {
     background-color: #f6f5f5;
@@ -366,6 +369,12 @@ header {
         height: 230px;
         width: 280px;
         object-fit: cover;
+      }
+      @media screen and (max-width: 360px) {
+        height: 300px;
+        width: 450px;
+        object-fit: cover;
+        z-index: 10;
       }
     }
 
@@ -472,6 +481,11 @@ header {
       padding: 25px 25px;
       box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
     }
+    @media screen and (max-width: 360px) {
+      width: 220px;
+      padding: 25px 25px;
+      box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+    }
 
     .elements {
       display: flex;
@@ -483,6 +497,10 @@ header {
       font-family: "Source Sans Pro SemiBold", serif;
       @media screen and (max-width: 568px) {
         width: 320px;
+        font-size: 15px;
+      }
+      @media screen and (max-width: 360px) {
+        width: 190px;
         font-size: 15px;
       }
 
@@ -498,6 +516,9 @@ header {
         display: flex;
         flex-direction: column;
         @media screen and (max-width: 568px) {
+          width: 90%;
+        }
+        @media screen and (max-width: 360px) {
           width: 90%;
         }
       }
@@ -524,6 +545,13 @@ header {
         position: relative;
         top: 25px;
         @media screen and (max-width: 568px) {
+          min-width: 90%;
+          max-width: 90%;
+
+          min-height: 200px;
+          max-height: 200px;
+        }
+        @media screen and (max-width: 360px) {
           min-width: 90%;
           max-width: 90%;
 
@@ -561,6 +589,9 @@ header {
         @media screen and (max-width: 568px) {
           top: 15px;
         }
+        @media screen and (max-width: 360px) {
+          top: 15px;
+        }
       }
 
       /*bouton*/
@@ -576,6 +607,9 @@ header {
         background-color: #ccd6f6;
         box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.25);
         @media screen and (max-width: 568px) {
+          width: 40%;
+        }
+        @media screen and (max-width: 360px) {
           width: 40%;
         }
 
@@ -621,56 +655,4 @@ footer {
     gap: 15px;
     color: white;
   }
-}
-
-@media screen and (max-width: 360px) {
-
-  #moi {
-    height: 1700px;
-  }
-
-  .liste_projets {
-    gap: 100px;
-  }
-
-  .projet .site {
-    height: 300px;
-    width: 450px;
-    object-fit: cover;
-    z-index: 10;
-  }
-
-  #contact form {
-    width: 220px;
-    padding: 25px 25px;
-    box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  #contact form .elements {
-    width: 190px;
-    font-size: 15px;
-  }
-
-  #contact form .elements input[type="text"] {
-    top: 15px;
-  }
-
-  #contact form .elements .input {
-    width: 90%;
-  }
-
-
-  #contact form .elements textarea {
-    min-width: 90%;
-    max-width: 90%;
-
-    min-height: 200px;
-    max-height: 200px;
-  }
-
-  /*bouton*/
-  #contact form .elements input[type="submit"] {
-    width: 40%;
-  }
-
 }
