@@ -8,8 +8,7 @@
           content="Portfolio de Samir Subra, étudiant en informatique à l'IUT de Vélizy. Samir Subra présente son parcours, ses projets, et sa situation actuelle.">
     <meta name="Samir Subra" content="Portfolio Samir Subra">
     <meta name="robots" content="index,follow">
-
-    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="../../dist/css/main.css">
     <title>Samir SUBRA - Developpeur web</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css"
           integrity="sha384-gWZI8pZgeI+GBa/W4iky4W9+XOrpgDpIp5t+7tdt+rWd2Qf+tjK40/2QEMfC5ch5" crossorigin="anonymous">
@@ -18,13 +17,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
-    <script src=’https://unpkg.com/scrollreveal></script>
+    <!-- <script src=’https://unpkg.com/scrollreveal></script> -->
 </head>
 <body>
 <header>
     <div class="contenu">
         <div class="photo_nom">
-            <p>Samir Subra</p>
+            <p>Samir Subraa</p>
         </div>
 
         <nav class="navbar">
@@ -102,8 +101,8 @@
                         <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
                 </div>
-                <div class="right hover">
-                    <a href="https://youliblack.fr" target="_blank"><img src="img/youliblack.png" class="static-image"
+                <div class="right">
+                    <a href="https://youliblack.fr" target="_blank"><img src="../../assets/images/youliblack.png" class="static-image"
                                                                          alt="image du projet Youliblack"></a>
                 </div>
             </div>
@@ -120,8 +119,8 @@
                         <li>PHP</li><li>SASS</li><li>WordPress</li>
                     </span>
                 </div>
-                <div class="right hover">
-                    <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img src="img/vahine.png"
+                <div class="right">
+                    <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img src="../../assets/images/vahine.png"
                                                                                          alt="image du projet Vahine Location"></a>
                 </div>
             </div>
@@ -135,8 +134,8 @@
             <p>Faissons connaissance ! </p>
             <div class="trait"></div>
         </div>
-        <div class="contenue">
-            <form action="contact.php" method="post">
+        <div>
+            <form action="../includes/contact.php" method="post">
                 <div class="elements">
                     <div class="input">
                         <input type="text" name="nom" id="nom" required>
@@ -174,6 +173,6 @@
         </div>
     </div>
 </footer>
-<script src="js/script.js"></script>
+<script type="module" src="../../dist/js/app.js"></script>
 </body>
 </html>

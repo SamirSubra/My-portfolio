@@ -181,7 +181,7 @@ header .contenu .burger {
 
 /*ACCUEIL*/
 #accueil {
-  background-image: url("../img/background_accueil.png");
+  background-image: url("../../assets/images/background_accueil.png");
   background-size: cover;
   background-position: center;
   gap: 10%;
@@ -313,7 +313,6 @@ header .contenu .burger {
 
 /*MES PROJETS*/
 #mes_projets {
-  /*height: 210vh;*/
   z-index: 20;
   border-top: 1px #D9D9D9 solid;
   background-color: #091628;
@@ -323,8 +322,7 @@ header .contenu .burger {
   max-width: 800px;
   font-size: 16px;
 }
-
-.liste_projets {
+#mes_projets .liste_projets {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -334,22 +332,22 @@ header .contenu .burger {
   align-self: center;
 }
 @media screen and (max-width: 1540px) {
-  .liste_projets {
+  #mes_projets .liste_projets {
     margin-top: 80px;
     gap: 50px;
   }
 }
 @media screen and (max-width: 568px) {
-  .liste_projets {
+  #mes_projets .liste_projets {
     gap: 100px;
   }
 }
 @media screen and (max-width: 360px) {
-  .liste_projets {
+  #mes_projets .liste_projets {
     gap: 100px;
   }
 }
-.liste_projets .projet {
+#mes_projets .liste_projets .projet {
   background-color: #f6f5f5;
   width: 70vw;
   padding: 15px 15px;
@@ -358,40 +356,22 @@ header .contenu .burger {
   justify-content: space-between;
 }
 @media screen and (max-width: 1300px) {
-  .liste_projets .projet {
+  #mes_projets .liste_projets .projet {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     gap: 10px;
   }
 }
-@media screen and (max-width: 568px) {
-  .liste_projets .projet .site {
-    height: 300px;
-    width: 450px;
-    object-fit: cover;
-    z-index: 10;
-  }
-}
-@media screen and (max-width: 415px) {
-  .liste_projets .projet .site {
-    height: 230px;
-    width: 280px;
-    object-fit: cover;
-  }
-}
-@media screen and (max-width: 360px) {
-  .liste_projets .projet .site {
-    height: 300px;
-    width: 450px;
-    object-fit: cover;
-    z-index: 10;
-  }
-}
-.liste_projets .projet.revert {
+#mes_projets .liste_projets .projet.revert {
   flex-direction: row-reverse;
 }
-.liste_projets .projet .left {
+@media screen and (max-width: 1300px) {
+  #mes_projets .liste_projets .projet.revert {
+    flex-direction: column-reverse;
+  }
+}
+#mes_projets .liste_projets .projet .left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -399,67 +379,76 @@ header .contenu .burger {
   text-align: center;
 }
 @media screen and (max-width: 1300px) {
-  .liste_projets .projet .left {
+  #mes_projets .liste_projets .projet .left {
     gap: 20px;
   }
 }
-.liste_projets .projet .left .titre-projet {
+#mes_projets .liste_projets .projet .left .titre-projet {
   color: black;
   font-size: 25px;
 }
 @media screen and (max-width: 568px) {
-  .liste_projets .projet .left .titre-projet {
+  #mes_projets .liste_projets .projet .left .titre-projet {
     width: 100%;
   }
 }
-.liste_projets .projet .left .description {
+#mes_projets .liste_projets .projet .left .description {
   color: gray;
   width: 350px;
 }
-.liste_projets .projet .left .technologies {
+@media screen and (max-width: 1300px) {
+  #mes_projets .liste_projets .projet .left .description {
+    width: unset;
+    padding: 0 5px;
+  }
+}
+#mes_projets .liste_projets .projet .left .technologies {
   list-style: none;
   display: flex;
   gap: 20px;
 }
-.liste_projets .projet .left .technologies li {
+#mes_projets .liste_projets .projet .left .technologies li {
   border: 1px solid transparent;
   padding: 5px;
   box-shadow: gray 0 0 3px 0px;
 }
-.liste_projets .projet .right {
+#mes_projets .liste_projets .projet .right {
   border-radius: 15px;
-}
-.liste_projets .projet .right.hover {
   overflow-y: hidden;
   height: 350px;
 }
-.liste_projets .projet .right.hover img {
+#mes_projets .liste_projets .projet .right img {
   width: 40vw;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: gray 0 0 8px 0px;
   transition: transform 3s ease; /* Transition pour une animation fluide */
 }
-.liste_projets .projet .right.hover:hover img {
+@media screen and (max-width: 1300px) {
+  #mes_projets .liste_projets .projet .right img {
+    width: 100%;
+  }
+}
+#mes_projets .liste_projets .projet .right:hover img {
   transform: translateY(-65%); /* Déplacer l'image vers le bas */
 }
 @media screen and (max-width: 1300px) {
-  .liste_projets .projet .right.hover:hover img {
+  #mes_projets .liste_projets .projet .right:hover img {
     transform: translateY(-60%); /* Déplacer l'image vers le bas */
   }
 }
 @media screen and (max-width: 1024px) {
-  .liste_projets .projet .right.hover:hover img {
+  #mes_projets .liste_projets .projet .right:hover img {
     transform: translateY(-55%); /* Déplacer l'image vers le bas */
   }
 }
 @media screen and (max-width: 800px) {
-  .liste_projets .projet .right.hover:hover img .hover:hover img {
+  #mes_projets .liste_projets .projet .right:hover img .hover:hover img {
     transform: translateY(-30%); /* Déplacer l'image vers le bas */
   }
 }
 @media screen and (max-width: 568px) {
-  .liste_projets .projet .right.hover:hover img {
+  #mes_projets .liste_projets .projet .right:hover img {
     transform: translateY(0%); /* Déplacer l'image vers le bas */
   }
 }
@@ -668,5 +657,3 @@ footer .social {
   gap: 15px;
   color: white;
 }
-
-/*# sourceMappingURL=style.css.map */
