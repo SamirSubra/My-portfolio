@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/js",
+    // Output directory for .js files
+
+    "rootDir": "./src/ts",
+    "target": "es6",
+    // Target ECMAScript version
+
+    "module": "es6",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    // Module system used
+
+    "strict": true,
+    // Strict type-checking options
+
+  },
+  "include": [
+    // TypeScript files to include
+    "src/ts/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

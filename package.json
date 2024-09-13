@@ -1,0 +1,31 @@
+{
+  "name": "portfolio---copy",
+  "version": "1.0.0",
+  "description": "Portfolio introducing who I am",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "sass src/styles/main.scss dist/css/main.css --no-source-map",
+    "build:ts": "tsc",
+    "build": "npm run build:sass && npm run build:ts",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "live-server": "^1.2.2",
+    "sass": "^1.78.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "tagcloud": "npm:TagCloud@^2.5.0",
+    "TagCloud": "^2.5.0",
+    "undici-types": "^6.19.8"
+  }
+}
