@@ -1,0 +1,28 @@
+#hero-section{
+  background-image: url("../../assets/images/background_accueil.png");
+  background-size: cover;
+  background-position: center;
+  gap: 10%;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+  @media screen and (max-width: 1540px) {
+    height: 100vh;
+  }
+  @media screen and (max-width: 568px) {
+    height: 100vh;
+  }
+
+  p {
+    font-size: 34px;
+    width: 45%;
+    text-align: center;
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}

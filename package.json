@@ -1,31 +1,37 @@
 {
-  "name": "portfolio---copy",
-  "version": "1.0.0",
-  "description": "Portfolio introducing who I am",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:sass": "sass src/styles/main.scss dist/css/main.css --no-source-map",
-    "build:ts": "tsc",
-    "build": "npm run build:sass && npm run build:ts",
-    "start": "live-server"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "p-react",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "devDependencies": {
-    "@types/node": "^22.5.4",
-    "live-server": "^1.2.2",
-    "sass": "^1.78.0",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.6.2",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^5.1.4"
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "tagcloud": "npm:TagCloud@^2.5.0",
-    "TagCloud": "^2.5.0",
-    "undici-types": "^6.19.8"
+    "framer-motion": "^11.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.13.1",
+    "react-router-dom": "^6.26.2",
+    "sass": "^1.78.0",
+    "scrollreveal": "^4.0.9",
+    "tagcloud": "^1.1.0-1",
+    "TagCloud": "^2.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/scrollreveal": "^0.0.11",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
   }
 }

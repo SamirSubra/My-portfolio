@@ -1,0 +1,163 @@
+#contact {
+  background: radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #263347 68% 70%, #0000 72%) 47px 47px/calc(2 * 47px) calc(2 * 47px),
+  radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #263347 68% 70%, #0000 72%) 47px 47px/calc(2 * 47px) calc(2 * 47px),
+  radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #263347 68% 70%, #0000 72%) 0 0/calc(2 * 47px) calc(2 * 47px),
+  radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #263347 68% 70%, #0000 72%) 0 0/calc(2 * 47px) calc(2 * 47px),
+  repeating-conic-gradient(#0a192f 0 25%, #0000 0 50%) 0 0/calc(2 * 47px) calc(2 * 47px),
+  radial-gradient(#0000 66%, #263347 68% 70%, #0000 72%) 0 calc(47px / 2)/47px 47px #0a192f;
+  @media screen and (max-width: 1540px) {
+    height: 900px;
+  }
+
+  form {
+    margin-top: 5%;
+    width: 490px;
+    background-color: white;
+    border-radius: 0px;
+    padding: 50px 50px;
+    box-shadow: -12px 18px 4px rgba(0, 0, 0, 0.25);
+    @media screen and (max-width: 568px) {
+      width: 340px;
+      padding: 25px 25px;
+      box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+    }
+    @media screen and (max-width: 360px) {
+      width: 220px;
+      padding: 25px 25px;
+      box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .elements {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 400px;
+      height: 100%;
+      font-size: 20px;
+      font-family: "Source Sans Pro SemiBold", serif;
+      @media screen and (max-width: 568px) {
+        width: 320px;
+        font-size: 15px;
+      }
+      @media screen and (max-width: 360px) {
+        width: 190px;
+        font-size: 15px;
+      }
+
+      label {
+        position: relative;
+        top: -15px;
+        left: 10px;
+        transition: .3s;
+      }
+
+      .input {
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width: 568px) {
+          width: 90%;
+        }
+        @media screen and (max-width: 360px) {
+          width: 90%;
+        }
+      }
+
+      /* textarea */
+      .input_message {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+        label {
+          position: relative;
+          top: -200px;
+        }
+      }
+
+      textarea {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 200px;
+        max-height: 200px;
+        outline: none;
+        font-size: 16px;
+        position: relative;
+        top: 25px;
+        @media screen and (max-width: 568px) {
+          min-width: 90%;
+          max-width: 90%;
+
+          min-height: 200px;
+          max-height: 200px;
+        }
+        @media screen and (max-width: 360px) {
+          min-width: 90%;
+          max-width: 90%;
+
+          min-height: 200px;
+          max-height: 200px;
+        }
+
+        &:focus + label,
+        &:valid + label {
+          left: 5px;
+          color: #ccd6f6;
+        }
+      }
+
+      /*effet*/
+
+      input {
+        &:focus + label,
+        &:valid + label {
+          top: -40px;
+          left: 0;
+          color: #ccd6f6;
+        }
+      }
+
+      input[type="text"] {
+        position: relative;
+        top: 25px;
+        height: 50px;
+        width: 70%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        padding-top: 20px;
+        @media screen and (max-width: 568px) {
+          top: 15px;
+        }
+        @media screen and (max-width: 360px) {
+          top: 15px;
+        }
+      }
+
+      /*bouton*/
+      input[type="submit"] {
+        width: 50%;
+        height: 40px;
+        font-weight: bold;
+        border: none;
+        position: relative;
+        left: 22%;
+        cursor: pointer;
+        color: #1e2f60;
+        background-color: #ccd6f6;
+        box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.25);
+        @media screen and (max-width: 568px) {
+          width: 40%;
+        }
+        @media screen and (max-width: 360px) {
+          width: 40%;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+          transition: ease-in-out 0.1s;
+        }
+      }
+    }
+  }
+}

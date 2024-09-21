@@ -1,0 +1,117 @@
+#header {
+  background-color: #0a192f;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+
+  a, p {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .contenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+    .photo_nom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2vh;
+
+      & img {
+        width: 6vh;
+        height: 6vh;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+
+    .navbar {
+      display: flex;
+      gap: 5vh;
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
+
+      &.active {
+        @media screen and (max-width: 800px) {
+          position: absolute;
+          width: 100%;
+          top: 65px;
+          left: 0;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #102646;
+        }
+      }
+
+      a:hover, a.active {
+        color: #5B9A8B;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+
+    .burger {
+      display: none;
+      @media screen and (max-width: 800px) {
+        display: block;
+        width: 42px;
+        height: 24px;
+        cursor: pointer;
+        position: relative;
+
+
+        span {
+          width: 100%;
+          height: 4px;
+          background-color: white;
+          display: block;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          transition: background-color 0.4s ease-in-out;
+
+          &::before, &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            background-color: white;
+            transition: 0.4s ease-in-out;
+          }
+
+          &::before {
+            transform: translateY(-10px);
+          }
+
+          &::after {
+            transform: translateY(10px);
+          }
+        }
+
+        &.active span {
+          background-color: transparent;
+
+          &::before {
+            transform: translateY(0px) rotateZ(45deg);
+          }
+
+          &::after {
+            transform: translateY(0px) rotateZ(-45deg);
+          }
+        }
+      }
+    }
+  }
+}
