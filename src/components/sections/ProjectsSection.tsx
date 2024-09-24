@@ -1,5 +1,8 @@
 import "../../styles/components/ProjectsSection.scss";
 import Reveal from "../utils/Reveal.tsx";
+import youliBlackImage from '../../assets/images/youliblack.png';
+import vahineImage from '../../assets/images/vahine.png';
+
 
 const ProjectsSection = () => {
     return (
@@ -15,7 +18,7 @@ const ProjectsSection = () => {
                 <div className="line"></div>
             </Reveal>
             <div className="projects-list">
-                        <Reveal as={"div"} className={"project"}>
+                <Reveal as={"div"} className={"project"}>
                     <div className="left">
                         <p className="title"> Youli BLack </p>
                         <p className="description">
@@ -32,14 +35,16 @@ const ProjectsSection = () => {
                     </span>
                     </div>
                     <div className="right">
-                        <a href="https://youliblack.fr" target="_blank"><img
-                            src="src/assets/images/youliblack.png" className="static-image"
-                            alt="image du projet Youliblack"/></a>
+                        <a href="https://youliblack.fr" target="_blank">
+                            <img src={youliBlackImage}
+                                 className="static-image"
+                                 alt="image du projet Youliblack"/>
+                        </a>
                     </div>
-                        </Reveal>
+                </Reveal>
                 <Reveal as={"div"} className={"project"}>
                     <div className="left ">
-                        <p className="titre-projet"> Vahine Location </p>
+                        <p className="title"> Vahine Location </p>
                         <p className="description">
                             Vahine Location est l'entreprise, dirigée par un indépendant spécialisé dans tout ce que
                             touche
@@ -53,9 +58,8 @@ const ProjectsSection = () => {
                     </span>
                     </div>
                     <div className="right">
-                        <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img
-                            src="src/assets/images/vahine.png"
-                            alt="image du projet Vahine Location"/></a>
+                        <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img src={vahineImage}
+                                                                                             alt="image du projet Vahine Location"/></a>
                     </div>
                 </Reveal>
                 <Reveal as={"p"}>La majorité des projets que j'ai réalisés ont été développés lors de mon

@@ -17,7 +17,7 @@ const SkillsSphere: React.FC = () => {
 
         if (container) {
             TagCloud(container, myTags, options);
-            container.style.color = "#5B9A8B";
+            container.style.color = "#59D9BB";
         } else {
             console.error('Element with ref "containerRef" not found');
         }

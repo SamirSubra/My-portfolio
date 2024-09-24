@@ -4,8 +4,7 @@ import Reveal from "../utils/Reveal.tsx";
 
 const MeSection = () => {
     return (
-        <div>
-            <section id="me">
+        <section id="me">
                 <Reveal as={"div"} className={"title"}>
                     <h2>À propos de moi </h2>
                     <p>Parlons un peu plus de moi ! </p>
@@ -46,7 +45,6 @@ const MeSection = () => {
                     </div>
                 </div>
             </section>
-        </div>
     );
 };
 
