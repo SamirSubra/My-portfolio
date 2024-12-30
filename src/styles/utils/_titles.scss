@@ -1,0 +1,37 @@
+@use "fonts";
+
+%heading-1 {
+  @include fonts.ez-font($Poppins, 800);
+  @include fonts.ez-font-size(80px, 50px);
+  @include fonts.ez-line-height(82px, 51px);
+
+}
+
+%heading-2 {
+  @include fonts.ez-font($Poppins, 700);
+  @include fonts.ez-font-size(55px, 25px);
+  //@include fonts.ez-line-height(66px, 31px);
+  //line-height: 66px;
+}
+
+%heading-3 {
+  @include fonts.ez-font($Poppins, 700);
+  @include fonts.ez-font-size(21px, 16px);
+  //color: $black;
+}
+
+
+%paragraph {
+  @include fonts.ez-font($Poppins, normal);
+  @include fonts.ez-font-size(16px);
+  color: $text;
+}
+
+%big-text {
+  @include fonts.ez-font-size(18px, 12px);
+
+}
+
+%small-text {
+  @include fonts.ez-font-size(14px, 12px);
+}

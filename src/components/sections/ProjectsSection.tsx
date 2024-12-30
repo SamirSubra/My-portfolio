@@ -2,6 +2,7 @@ import "../../styles/components/ProjectsSection.scss";
 import Reveal from "../utils/Reveal.tsx";
 import youliBlackImage from '../../assets/images/youliblack.png';
 import vahineImage from '../../assets/images/vahine.png';
+import hotelBImage from '../../assets/images/hotelb.png';
 
 
 const ProjectsSection = () => {
@@ -60,6 +61,22 @@ const ProjectsSection = () => {
                     <div className="right">
                         <a href="https://preprod-vahine.arbuspace.com/" target="_blank"><img src={vahineImage}
                                                                                              alt="image du projet Vahine Location"/></a>
+                    </div>
+                </Reveal>
+                <Reveal as={"div"} className={"project"}>
+                    <div className="left ">
+                        <p className="title"> Hotel Booking </p>
+                        <p className="description">
+                            Hotel Booking est un projet personnel en cours (disponible sur GitHub) développé avec React et Node.js.
+                            Il s'agit d'une application web qui permet aux utilisateurs de réserver des hôtels et aux administrateurs de gérer les hôtels et les utilisateurs via des fonctionnalités CRUD complètes.
+                        </p>
+                        <span className="technologies">
+                        <li>React</li><li>Node</li><li>TypeScript</li><li>MongoDB</li>
+                    </span>
+                    </div>
+                    <div className="right">
+                        <a href="https://github.com/SamirSubra/HotelBooking" target="_blank"><img src={hotelBImage}
+                                                                                             alt="image du projet Hotel Booking"/></a>
                     </div>
                 </Reveal>
                 <Reveal as={"p"}>La majorité des projets que j'ai réalisés ont été développés lors de mon

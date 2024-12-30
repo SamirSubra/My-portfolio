@@ -1,5 +1,5 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom"
-import Main from "./pages/Main.tsx";
+import Home from "./pages/Home.tsx";
 import Footer from "./layouts/Footer.tsx";
 import {useEffect, useState} from "react";
 import Header from "./layouts/Header.tsx";
@@ -43,7 +43,7 @@ function App() {
       <div id="app">
           <Header activeSection={activeSection} />
         <Routes>
-          <Route path="/*" element={<Main/>} />
+          <Route path="/*" element={<Home/>} />
         </Routes>
           <Footer/>
       </div>

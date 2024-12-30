@@ -1,0 +1,41 @@
+/* Plus Jakarta Sans */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('@/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+  //src: url('/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Poppins Regular */
+@font-face {
+  font-family: 'Poppins';
+  src: url('@/assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Poppins Bold */
+@font-face {
+  font-family: 'Poppins';
+  src: url('@/assets/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Poppins Italic */
+@font-face {
+  font-family: 'Poppins';
+  src: url('@/assets/fonts/Poppins-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Poppins Bold Italic */
+@font-face {
+  font-family: 'Poppins';
+  src: url('@/assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}

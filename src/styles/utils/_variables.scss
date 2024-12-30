@@ -1,0 +1,23 @@
+@import "fonts";
+
+// STANDARDS COLORS
+$light-white: rgba(255, 255, 255, 0.80);
+$white: #ffffff;
+$gray: #F8F8F8;
+$light-gray: #E7E7E7;
+$black: #000000;
+$green: pink;
+
+// THEMED COLORS
+$primary: #0FD980;
+$text: #000000;
+
+// FILTERS
+$primary-filter: brightness(0) saturate(100%) invert(12%) sepia(45%) saturate(4964%) hue-rotate(332deg) brightness(119%) contrast(103%);
+
+// FONT FAMILY
+$Poppins: "Poppins";
+$PlusJakartaSans: "PlusJakartaSans";
+
+// OTHER
+$border: 1px solid #00000017;
